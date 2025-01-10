@@ -34,8 +34,8 @@ The project consists of two main components:
 ├── app.js                   # Web3.js logic
 ├── truffle-config.js        # Truffle configuration
 ├── package.json             # Dependencies
-└── README.md                # Project documentation```
-
+└── README.md                # Project documentation
+```
 ⚙️ Installation Prerequisites
 Node.js & npm: 
 Download here https://nodejs.org/en
