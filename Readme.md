@@ -90,7 +90,7 @@ lite-server
 **2. View Available Models:**
 - Explore listed models with their details.
 - Click Purchase or Rate.
-![](models.png)
+![](models.jpg)
 
 **3. Purchase a Model:**
 - Click Purchase.
@@ -100,7 +100,7 @@ lite-server
 **4. Rate a Model:**
 - Click Rate.
 - Submit a rating between 1 and 5 stars.
-![](rating.png)
+![](rating.jpg)
 
 **5. Withdraw Funds:**
 Creators can withdraw their earnings from sales.
