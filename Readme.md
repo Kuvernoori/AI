@@ -57,33 +57,38 @@ https://metamask.io/
 ### 🛠️ Steps to Set Up
 ---
 ### Step 1: Clone the repository
-Clone the Repository:
-``git clone https://github.com/Kuvernoori/AI.git
-cd AI``
-
+```
+git clone https://github.com/Kuvernoori/AI.git
+cd AI
+```
 ### Step 2: Install project dependencies
-Install Dependencies:
-`npm install`
-
-Configure the Ethereum Network:
-Connect MetaMask to a test network (e.g., Ganache).
+```
+npm install
+```
+### Step 3: Configure the Ethereum network
+Connect **MetaMask** to a test network (e.g., **Ganache**).
 Update truffle-config.js with your network settings.
 
-Deploy the Smart Contract:
-`truffle compile
-truffle migrate --network development`
-
-Run the Frontend:
-Start your lite-server to launch the interface.
-
+### Step 4: Deploy the Smart Contract
+1 Compile the smart contract using Truffle:
+```truffle compile
+```
+2 Deploy the contract to your chosen network:
+```truffle migrate --network development
+```
+### Step 5: Run the frontend
+```lite-server
+```
 ---
+
 
 ### 🌟 How to Use the Marketplace
 
-List a Model:
-Navigate to "List a New Model."
-Fill in Model Name, Description, and Price (ETH).
-Click List Model.
+1. List a Model:
+- Navigate to "List a New Model."
+- Fill in **Model Name**, **Description**, and **Price** (ETH).
+- Click **List Model**.
+![](market.png)
 
 View Available Models:
 Explore listed models with their details.
