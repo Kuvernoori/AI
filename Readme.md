@@ -95,6 +95,7 @@ lite-server
 **3. Purchase a Model:**
 - Click Purchase.
 - Confirm the ETH payment via MetaMask.
+
 ![](metamask.png)
 
 **4. Rate a Model:**
