@@ -34,64 +34,63 @@ The project consists of two main components:
 ├── app.js                   # Web3.js logic
 ├── truffle-config.js        # Truffle configuration
 ├── package.json             # Dependencies
-└── README.md                # Project documentation
+└── README.md                # Project documentation```
 
 ⚙️ Installation Prerequisites
-Node.js & npm: Download here
+Node.js & npm: 
+Download here https://nodejs.org/en
 
 Truffle: Install globally:
+```npm install -g truffle```
 
-bash
-Copy code
-npm install -g truffle
-Ganache: Download here
+Ganache: 
+Download here https://archive.trufflesuite.com/ganache/
 
-MetaMask: Browser extension for Ethereum interaction.
+MetaMask: 
+Browser extension for Ethereum interaction.
+https://metamask.io/
 
 🛠️ Steps to Set Up
 Clone the Repository:
-bash
-Copy code
-cd BT2 (and again)
-Install Dependencies:
-bash
-Copy code
-npm install
-Configure the Ethereum Network:
+```git clone https://github.com/Kuvernoori/AI.git
+cd AI```
 
+Install Dependencies:
+```npm install```
+
+Configure the Ethereum Network:
 Connect MetaMask to a test network (e.g., Ganache).
 Update truffle-config.js with your network settings.
-Deploy the Smart Contract:
 
-bash
-Copy code
-truffle compile
-truffle migrate --network development
+Deploy the Smart Contract:
+```truffle compile
+truffle migrate --network development```
+
 Run the Frontend:
 Start your lite-server to launch the interface.
 🌟 How to Use the Marketplace
-List a Model:
 
+List a Model:
 Navigate to "List a New Model."
 Fill in Model Name, Description, and Price (ETH).
 Click List Model.
-View Available Models:
 
+View Available Models:
 Explore listed models with their details.
 Click Purchase or Rate.
-Purchase a Model:
 
+Purchase a Model:
 Click Purchase.
 Confirm the ETH payment via MetaMask.
-Rate a Model:
 
+Rate a Model:
 Click Rate.
 Submit a rating between 1 and 5 stars.
+
 Withdraw Funds:
-
 Creators can withdraw their earnings from sales.
-📜 Smart Contract Overview
 
+📜 Smart Contract Overview
 Function	Description
 listModel	Add a new AI model with name, description, and price.
 purchaseModel	Purchase a listed model by paying ETH.
@@ -106,21 +105,6 @@ Web3.js: JavaScript library for Ethereum interaction.
 Ganache: Local blockchain for testing.
 MetaMask: Browser wallet for Ethereum.
 
-🤝 Contributing
-Fork this repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add a new feature"
-Push to the branch:
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
 📄 License
 This project is licensed under the MIT License.
 
