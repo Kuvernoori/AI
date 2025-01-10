@@ -106,7 +106,7 @@ Creators can withdraw their earnings from sales.
 ![](marketplace.png)
 
 ---
-### ⚙️ Settings
+### ⚙️ Test settings
 ---
 ![](settings.png)
 
