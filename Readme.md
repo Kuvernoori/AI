@@ -9,7 +9,7 @@ A decentralized marketplace for AI models built on Ethereum using smart contract
 - ⭐️ Rate Models: Leave ratings (1 to 5 stars) after purchase.
 - 🔍 View Model Details: Explore name, description, price, and average ratings.
 - 💰 Creator Withdrawals: Withdraw earnings from sales.
----
+
 ## 📂 Project Structure
 
 The project consists of two main components:
@@ -17,9 +17,7 @@ The project consists of two main components:
 1. Smart Contracts: Solidity-powered logic for the marketplace.
 2. Frontend: HTML, CSS, and JavaScript interface to interact with Ethereum via Web3.js.
 
----
-
-### 📁 Project Layout
+## 📁 Project Layout
 
 ```plaintext
 /ai-model-marketplace
@@ -108,7 +106,9 @@ lite-server
 Creators can withdraw their earnings from sales.
 ![](marketplace.png)
 
+---
 ### 📜 Smart Contract Overview
+---
 Function	Description
 - listModel	Add a new AI model with name, description, and price.
 - purchaseModel	Purchase a listed model by paying ETH.
