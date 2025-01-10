@@ -22,8 +22,8 @@ The project consists of two main components:
 2. Frontend: HTML, CSS, and JavaScript interface to interact with Ethereum via Web3.js.
 
 ### 📁 Project Layout
-`
-plaintext
+
+```plaintext
 /ai-model-marketplace
 ├── contracts/               # Smart contracts
 │   ├── AIModelMarketplace.sol
@@ -35,7 +35,7 @@ plaintext
 ├── truffle-config.js        # Truffle configuration
 ├── package.json             # Dependencies
 └── README.md                # Project documentation
-`
+
 ⚙️ Installation Prerequisites
 Node.js & npm: Download here
 
