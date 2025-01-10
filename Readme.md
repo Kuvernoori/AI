@@ -55,10 +55,13 @@ https://metamask.io/
 ---
 
 ### 🛠️ Steps to Set Up
+---
+### Step 1: Clone the repository
 Clone the Repository:
-`git clone https://github.com/Kuvernoori/AI.git
-cd AI`
+``git clone https://github.com/Kuvernoori/AI.git
+cd AI``
 
+### Step 2: Install project dependencies
 Install Dependencies:
 `npm install`
 
