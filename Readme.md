@@ -21,6 +21,8 @@ The project consists of two main components:
 1. Smart Contracts: Solidity-powered logic for the marketplace.
 2. Frontend: HTML, CSS, and JavaScript interface to interact with Ethereum via Web3.js.
 
+---
+
 ### 📁 Project Layout
 
 ```plaintext
@@ -36,7 +38,7 @@ The project consists of two main components:
 ├── package.json             # Dependencies
 └── README.md                # Project documentation
 ```
-###⚙️ Installation Prerequisites
+### ⚙️ Installation Prerequisites
 Node.js & npm: 
 Download here https://nodejs.org/en
 
@@ -49,6 +51,8 @@ Download here https://archive.trufflesuite.com/ganache/
 MetaMask: 
 Browser extension for Ethereum interaction.
 https://metamask.io/
+
+---
 
 ### 🛠️ Steps to Set Up
 Clone the Repository:
@@ -68,6 +72,9 @@ truffle migrate --network development`
 
 Run the Frontend:
 Start your lite-server to launch the interface.
+
+---
+
 ### 🌟 How to Use the Marketplace
 
 List a Model:
@@ -90,6 +97,8 @@ Submit a rating between 1 and 5 stars.
 Withdraw Funds:
 Creators can withdraw their earnings from sales.
 
+---
+
 ### 📜 Smart Contract Overview
 Function	Description
 listModel	Add a new AI model with name, description, and price.
@@ -99,14 +108,20 @@ withdrawFunds	Withdraw funds from model sales.
 getModelDetails	Retrieve details of a specific model.
 getModelsCount	Get the total number of listed models.
 
+---
+
 ### 🧰 Tools & Technologies
 Truffle: Smart contract development framework.
 Web3.js: JavaScript library for Ethereum interaction.
 Ganache: Local blockchain for testing.
 MetaMask: Browser wallet for Ethereum.
 
+---
+
 ### 📄 License
 This project is licensed under the MIT License.
+
+---
 
 ### 📧 Contact
 For questions or feedback, reach out via GitHub issues or contact the maintainers directly.
