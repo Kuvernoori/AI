@@ -41,7 +41,7 @@ Node.js & npm:
 Download here https://nodejs.org/en
 
 Truffle: Install globally:
-`npm install -g truffle`
+```npm install -g truffle```
 
 Ganache: 
 Download here https://archive.trufflesuite.com/ganache/
