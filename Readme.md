@@ -70,14 +70,17 @@ Connect **MetaMask** to a test network (e.g., **Ganache**).
 Update truffle-config.js with your network settings.
 
 ### Step 4: Deploy the Smart Contract
-1 Compile the smart contract using Truffle:
-```truffle compile
+1. Compile the smart contract using Truffle:
 ```
-2 Deploy the contract to your chosen network:
-```truffle migrate --network development
+truffle compile
+```
+2. Deploy the contract to your chosen network:
+```
+truffle migrate --network development
 ```
 ### Step 5: Run the frontend
-```lite-server
+```
+lite-server
 ```
 ---
 
