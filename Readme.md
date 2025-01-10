@@ -41,7 +41,7 @@ Node.js & npm:
 Download here https://nodejs.org/en
 
 Truffle: Install globally:
-```npm install -g truffle```
+`npm install -g truffle`
 
 Ganache: 
 Download here https://archive.trufflesuite.com/ganache/
@@ -52,19 +52,19 @@ https://metamask.io/
 
 🛠️ Steps to Set Up
 Clone the Repository:
-```git clone https://github.com/Kuvernoori/AI.git
-cd AI```
+`git clone https://github.com/Kuvernoori/AI.git
+cd AI`
 
 Install Dependencies:
-```npm install```
+`npm install`
 
 Configure the Ethereum Network:
 Connect MetaMask to a test network (e.g., Ganache).
 Update truffle-config.js with your network settings.
 
 Deploy the Smart Contract:
-```truffle compile
-truffle migrate --network development```
+`truffle compile
+truffle migrate --network development`
 
 Run the Frontend:
 Start your lite-server to launch the interface.
