@@ -4,18 +4,18 @@ A decentralized marketplace for AI models built on Ethereum using smart contract
 
 ## ✨ Features
 
-- 📝 List AI Models: Add AI models with a name, description, and price.
-- 💳 Purchase Models: Securely buy models with ETH.
-- ⭐️ Rate Models: Leave ratings (1 to 5 stars) after purchase.
-- 🔍 View Model Details: Explore name, description, price, and average ratings.
-- 💰 Creator Withdrawals: Withdraw earnings from sales.
+- 📝 **List AI Models:** Add AI models with a name, description, and price.
+- 💳 **Purchase Models:** Securely buy models with ETH.
+- ⭐️ **Rate Models:** Leave ratings (1 to 5 stars) after purchase.
+- 🔍 **View Model Details:** Explore name, description, price, and average ratings.
+- 💰 **Creator Withdrawals:** Withdraw earnings from sales.
 
 ## 📂 Project Structure
 
 The project consists of two main components:
 
-1. Smart Contracts: Solidity-powered logic for the marketplace.
-2. Frontend: HTML, CSS, and JavaScript interface to interact with Ethereum via Web3.js.
+1. **Smart Contracts:** Solidity-powered logic for the marketplace.
+2. **Frontend:** HTML, CSS, and JavaScript interface to interact with Ethereum via Web3.js.
 
 ## 📁 Project Layout
 
@@ -35,16 +35,16 @@ The project consists of two main components:
 ---
 ### ⚙️ Installation Prerequisites
 ---
-Node.js & npm: 
+**Node.js & npm:** 
 Download here https://nodejs.org/en
 
-Truffle: Install globally:
+**Truffle:** Install globally:
 ```npm install -g truffle```
 
-Ganache: 
+**Ganache:** 
 Download here https://archive.trufflesuite.com/ganache/
 ![](ganache.jpg)
-MetaMask: 
+**MetaMask:**
 Browser extension for Ethereum interaction.
 https://metamask.io/
 
@@ -65,11 +65,11 @@ Connect **MetaMask** to a test network (e.g., **Ganache**).
 Update truffle-config.js with your network settings.
 
 ### Step 4: Deploy the Smart Contract
-1. Compile the smart contract using Truffle:
+**1.** Compile the smart contract using Truffle:
 ```
 truffle compile
 ```
-2. Deploy the contract to your chosen network:
+**2.** Deploy the contract to your chosen network:
 ```
 truffle migrate --network development
 ```
