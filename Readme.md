@@ -109,7 +109,7 @@ Creators can withdraw their earnings from sales.
 ---
 ### 📜 Smart Contract Overview
 ---
-Function	Description
+***Function	Description***
 - listModel	Add a new AI model with name, description, and price.
 - purchaseModel	Purchase a listed model by paying ETH.
 - rateModel	Rate a purchased model (1 to 5 stars).
