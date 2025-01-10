@@ -1,21 +1,17 @@
 # 🛒 AI Model Marketplace 🚀
-
+---
 A decentralized marketplace for AI models built on Ethereum using smart contracts. Users can list, purchase, rate AI models, and creators can withdraw earnings. Powered by Truffle for smart contract development and Web3.js for Ethereum interaction.
 
----
-
 ## ✨ Features
-
+---
 - 📝 List AI Models: Add AI models with a name, description, and price.
 - 💳 Purchase Models: Securely buy models with ETH.
 - ⭐️ Rate Models: Leave ratings (1 to 5 stars) after purchase.
 - 🔍 View Model Details: Explore name, description, price, and average ratings.
 - 💰 Creator Withdrawals: Withdraw earnings from sales.
 
----
-
 ## 📂 Project Structure
-
+---
 The project consists of two main components:
 
 1. Smart Contracts: Solidity-powered logic for the marketplace.
@@ -24,7 +20,7 @@ The project consists of two main components:
 ---
 
 ### 📁 Project Layout
-
+---
 ```plaintext
 /ai-model-marketplace
 ├── contracts/               # Smart contracts
@@ -39,6 +35,7 @@ The project consists of two main components:
 └── README.md                # Project documentation
 ```
 ### ⚙️ Installation Prerequisites
+---
 Node.js & npm: 
 Download here https://nodejs.org/en
 
@@ -47,12 +44,10 @@ Truffle: Install globally:
 
 Ganache: 
 Download here https://archive.trufflesuite.com/ganache/
-
+![](ganache.jpg)
 MetaMask: 
 Browser extension for Ethereum interaction.
 https://metamask.io/
-
----
 
 ### 🛠️ Steps to Set Up
 ---
@@ -84,44 +79,42 @@ lite-server
 ```
 ---
 
-
 ### 🌟 How to Use the Marketplace
-
-1. List a Model:
+---
+**1. List a Model:**
 - Navigate to "List a New Model."
 - Fill in **Model Name**, **Description**, and **Price** (ETH).
 - Click **List Model**.
 ![](market.png)
 
-View Available Models:
-Explore listed models with their details.
-Click Purchase or Rate.
+**2. View Available Models:**
+- Explore listed models with their details.
+- Click Purchase or Rate.
+![](models.png)
 
-Purchase a Model:
-Click Purchase.
-Confirm the ETH payment via MetaMask.
-
-Rate a Model:
-Click Rate.
-Submit a rating between 1 and 5 stars.
-
-Withdraw Funds:
+**3. Purchase a Model:**
+- Click Purchase.
+- Confirm the ETH payment via MetaMask.
+![](metamask.png)
+**4. Rate a Model:**
+- Click Rate.
+- Submit a rating between 1 and 5 stars.
+![](rating.png)
+**5. Withdraw Funds:**
 Creators can withdraw their earnings from sales.
-
----
+![](marketplace.png)
 
 ### 📜 Smart Contract Overview
 Function	Description
-listModel	Add a new AI model with name, description, and price.
-purchaseModel	Purchase a listed model by paying ETH.
-rateModel	Rate a purchased model (1 to 5 stars).
-withdrawFunds	Withdraw funds from model sales.
-getModelDetails	Retrieve details of a specific model.
-getModelsCount	Get the total number of listed models.
-
----
+- listModel	Add a new AI model with name, description, and price.
+- purchaseModel	Purchase a listed model by paying ETH.
+- rateModel	Rate a purchased model (1 to 5 stars).
+- withdrawFunds	Withdraw funds from model sales.
+- getModelDetails	Retrieve details of a specific model.
+- getModelsCount Get the total number of listed models.
 
 ### 🧰 Tools & Technologies
+---
 Truffle: Smart contract development framework.
 Web3.js: JavaScript library for Ethereum interaction.
 Ganache: Local blockchain for testing.
@@ -130,9 +123,9 @@ MetaMask: Browser wallet for Ethereum.
 ---
 
 ### 📄 License
+---
 This project is licensed under the MIT License.
 
----
-
 ### 📧 Contact
+---
 For questions or feedback, reach out via GitHub issues or contact the maintainers directly.
