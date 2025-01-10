@@ -1,0 +1,15 @@
+{
+    "files": ["./**/*.{html,htm,css,js}"],
+    "watchOptions": {
+      "ignored": [
+        "C:/Windows/System32/**",
+        "C:/Users/berka/AppData/**",
+        "C:/Program Files/**",
+        "C:/ProgramData/**"
+      ]
+    },
+    "server": {
+      "baseDir": "./"
+    }
+  }
+  
