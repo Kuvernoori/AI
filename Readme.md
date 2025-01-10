@@ -100,11 +100,15 @@ lite-server
 **4. Rate a Model:**
 - Click Rate.
 - Submit a rating between 1 and 5 stars.
-![](rating.jpg)
 
 **5. Withdraw Funds:**
 Creators can withdraw their earnings from sales.
 ![](marketplace.png)
+
+---
+### ⚙️ Settings
+---
+![](settings.png)
 
 ---
 ### 📜 Smart Contract Overview
